@@ -1,0 +1,7 @@
+---
+
+- name: Download Install and Configure Web Server 
+  hosts: all
+  tasks: 
+    - name: Updat Repo 
+      apt: 
